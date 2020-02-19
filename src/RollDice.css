@@ -35,6 +35,13 @@
 
 ;
 }
+
+.Repo-Div{
+    float:right;
+    padding-right:10px;
+    text-align:center;
+    color:black;
+}
 /* .RollDice img {
     position: absolute;
     left: 0;

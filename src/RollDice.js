@@ -35,9 +35,14 @@ class RollDice extends Component {
 
             
                 <nav>
-                    <div class="nav-wrapper">
-                        <a class="RollDice-Title brand-logo center black-text text-darken-2 z-depth-5" alt="Dice Roller">Roll'Em</a>
-                    </div>
+                    <div className="nav-wrapper">
+                        <a className="RollDice-Title brand-logo center black-text text-darken-2 z-depth-5" alt="Dice Roller">Roll'Em</a>
+                        <div className="Repo-Div">
+                            <a className="bold" href="https://github.com/fbdel/Rollem" target="_blank" >Github Repo</a>
+                        </div>
+                    </div>  
+                    
+                 
                 </nav>
                 <div className="Dice-Countainer">
                     {/* <Die die1={this.state.die1} die2={this.state.die2}/> */}
@@ -48,9 +53,9 @@ class RollDice extends Component {
 
                 <button onClick= {this.roll} disabled={this.state.rolling} className="RollButton">
                     {this.state.rolling? "Rolling...": "Roll Dice"}
-                </button>
-          
+                </button>   
             </div>
+            
 
         )
     }
