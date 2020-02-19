@@ -1,6 +1,13 @@
 .App{
     text-align:center;
+    /* opacity: 0.2; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     background-image: url("/Bg3-image.jpg");
     background-size: 100%;
+    height: auto;
+
 }
+
 

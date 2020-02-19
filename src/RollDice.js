@@ -32,7 +32,8 @@ class RollDice extends Component {
 
         return (
             <div className= "RollDice">
-                
+
+            
                 <nav>
                     <div class="nav-wrapper">
                         <a class="RollDice-Title brand-logo center black-text text-darken-2 z-depth-5" alt="Dice Roller">Roll'Em</a>
@@ -43,7 +44,8 @@ class RollDice extends Component {
                     <Die face={this.state.die1} rolling={this.state.rolling} />
                     <Die face={this.state.die2} rolling={this.state.rolling} />
                 </div>
-                
+                {/* <img src="/Bg3-image.jpg"></img> */}
+
                 <button onClick= {this.roll} disabled={this.state.rolling} className="RollButton">
                     {this.state.rolling? "Rolling...": "Roll Dice"}
                 </button>

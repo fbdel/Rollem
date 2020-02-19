@@ -27,5 +27,19 @@
 
 .RollDice-Title{
     font-family: 'Modak', cursive;
-    border-radius:10px;
+    border-radius:5px;
+    /* padding:10px; */
+    border: 10px;
+    width: 20pc;
+    background:#ffeead
+
+;
 }
+/* .RollDice img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+} */
