@@ -38,7 +38,7 @@ class RollDice extends Component {
                     <div className="nav-wrapper">
                         <a className="RollDice-Title brand-logo center black-text text-darken-2 z-depth-5" alt="Dice Roller">Roll'Em</a>
                         <div className="Repo-Div">
-                            <a className="bold" href="https://github.com/fbdel/Rollem" target="_blank" >Github Repo</a>
+                            <a className="text-bold" href="https://github.com/fbdel/Rollem" target="_blank" >Github Repo</a>
                         </div>
                     </div>  
                     
